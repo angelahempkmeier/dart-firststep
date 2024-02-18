@@ -22,4 +22,20 @@ void main() {
   boyfriendsName = "Nicolas";
   print(boyfriendsName);
   //boyfriendsName = null; cant do it
+
+  //structures if and switch
+  bool moveForward = false;
+  if (moveForward) {
+    print("walk");
+  } else {
+    print("stop");
+  }
+  int value = 1;
+  switch (value) {
+    case 2:
+      print("Two");
+      break;
+    default:
+      print("It's not the number 2");
+  }
 }
