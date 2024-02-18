@@ -1,3 +1,5 @@
+import 'cellphone.dart';
+
 void main() {
   //variaables
   String name = "Angela";
@@ -42,4 +44,10 @@ void main() {
   for (int i = 0; i <= 10; i++) {
     print(i);
   }
+
+  //class
+  Cellphone angiesPhone = Cellphone("Purple", 5, 0.800, 5.7);
+  print(angiesPhone.toString());
+  Cellphone nisPhone = Cellphone("Green", 5, 1.800, 8.7);
+  print(nisPhone.toString());
 }
