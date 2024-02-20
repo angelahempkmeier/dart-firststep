@@ -1,3 +1,4 @@
+import 'car.dart';
 import 'cellphone.dart';
 
 void main() {
@@ -50,4 +51,10 @@ void main() {
   print(angiesPhone.toString());
   Cellphone nisPhone = Cellphone("Green", 5, 1.800, 8.7);
   print(nisPhone.toString());
+
+  Car mercedes = Car("mercedes");
+  Car gol = Car("gol");
+  mercedes.setValue(1618);
+  print(mercedes.secretVariable);
+  print(mercedes.valueTest);
 }
