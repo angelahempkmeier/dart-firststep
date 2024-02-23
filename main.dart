@@ -1,5 +1,6 @@
 import 'car.dart';
 import 'cellphone.dart';
+import 'phrase.dart';
 
 void main() {
   //variaables
@@ -57,4 +58,7 @@ void main() {
   mercedes.setValue(1618);
   print(mercedes.secretVariable);
   print(mercedes.valueTest);
+
+  Phrase phrase = Phrase();
+  print(phrase.talk());
 }
